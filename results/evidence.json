@@ -1,0 +1,5769 @@
+{
+  "input": {
+    "local_bytes": 3067413,
+    "upload": {
+      "status": 200,
+      "etag": "\"587214cd534394c4a9d1077b27231003\"",
+      "bytes": 3067413
+    },
+    "head": {
+      "status": 200,
+      "bytes": 3067413,
+      "etag": "\"587214cd534394c4a9d1077b27231003\""
+    }
+  },
+  "variant": 7,
+  "filter": "Go/Golang as a separate word in vacancy title",
+  "mapreduce_meta": {
+    "vacancies": 124,
+    "with_skills": 101,
+    "rub_salary": 13
+  },
+  "counts": {
+    "1": {
+      "unique_combinations": 115,
+      "total_occurrences": 601,
+      "top10": [
+        {
+          "skills": [
+            "golang"
+          ],
+          "n": 81
+        },
+        {
+          "skills": [
+            "postgresql"
+          ],
+          "n": 46
+        },
+        {
+          "skills": [
+            "go"
+          ],
+          "n": 43
+        },
+        {
+          "skills": [
+            "sql"
+          ],
+          "n": 26
+        },
+        {
+          "skills": [
+            "docker"
+          ],
+          "n": 26
+        },
+        {
+          "skills": [
+            "linux"
+          ],
+          "n": 26
+        },
+        {
+          "skills": [
+            "kubernetes"
+          ],
+          "n": 24
+        },
+        {
+          "skills": [
+            "git"
+          ],
+          "n": 22
+        },
+        {
+          "skills": [
+            "redis"
+          ],
+          "n": 17
+        },
+        {
+          "skills": [
+            "rabbitmq"
+          ],
+          "n": 16
+        }
+      ],
+      "s3": {
+        "status": 200,
+        "etag": "\"0b046bce069db97f7732624877915acb\"",
+        "bytes": 7888
+      },
+      "s3_head": {
+        "status": 200,
+        "bytes": 7888,
+        "etag": "\"0b046bce069db97f7732624877915acb\""
+      }
+    },
+    "2": {
+      "unique_combinations": 1008,
+      "total_occurrences": 2382,
+      "top10": [
+        {
+          "skills": [
+            "golang",
+            "postgresql"
+          ],
+          "n": 38
+        },
+        {
+          "skills": [
+            "go",
+            "golang"
+          ],
+          "n": 29
+        },
+        {
+          "skills": [
+            "golang",
+            "sql"
+          ],
+          "n": 23
+        },
+        {
+          "skills": [
+            "golang",
+            "kubernetes"
+          ],
+          "n": 23
+        },
+        {
+          "skills": [
+            "docker",
+            "golang"
+          ],
+          "n": 22
+        },
+        {
+          "skills": [
+            "docker",
+            "postgresql"
+          ],
+          "n": 21
+        },
+        {
+          "skills": [
+            "postgresql",
+            "sql"
+          ],
+          "n": 19
+        },
+        {
+          "skills": [
+            "git",
+            "golang"
+          ],
+          "n": 18
+        },
+        {
+          "skills": [
+            "golang",
+            "linux"
+          ],
+          "n": 18
+        },
+        {
+          "skills": [
+            "git",
+            "postgresql"
+          ],
+          "n": 17
+        }
+      ],
+      "s3": {
+        "status": 200,
+        "etag": "\"3fe1e1998c5802037dc914e387a18f57\"",
+        "bytes": 84754
+      },
+      "s3_head": {
+        "status": 200,
+        "bytes": 84754,
+        "etag": "\"3fe1e1998c5802037dc914e387a18f57\""
+      }
+    },
+    "3": {
+      "unique_combinations": 4522,
+      "total_occurrences": 9106,
+      "top10": [
+        {
+          "skills": [
+            "docker",
+            "golang",
+            "postgresql"
+          ],
+          "n": 17
+        },
+        {
+          "skills": [
+            "golang",
+            "postgresql",
+            "sql"
+          ],
+          "n": 17
+        },
+        {
+          "skills": [
+            "git",
+            "golang",
+            "postgresql"
+          ],
+          "n": 14
+        },
+        {
+          "skills": [
+            "golang",
+            "kubernetes",
+            "postgresql"
+          ],
+          "n": 14
+        },
+        {
+          "skills": [
+            "golang",
+            "postgresql",
+            "rabbitmq"
+          ],
+          "n": 14
+        },
+        {
+          "skills": [
+            "docker",
+            "golang",
+            "kubernetes"
+          ],
+          "n": 13
+        },
+        {
+          "skills": [
+            "docker",
+            "postgresql",
+            "sql"
+          ],
+          "n": 13
+        },
+        {
+          "skills": [
+            "docker",
+            "git",
+            "golang"
+          ],
+          "n": 12
+        },
+        {
+          "skills": [
+            "docker",
+            "git",
+            "postgresql"
+          ],
+          "n": 12
+        },
+        {
+          "skills": [
+            "docker",
+            "golang",
+            "sql"
+          ],
+          "n": 12
+        }
+      ],
+      "s3": {
+        "status": 200,
+        "etag": "\"9c1a5b4571a12fbb8756969e300a49a9\"",
+        "bytes": 448298
+      },
+      "s3_head": {
+        "status": 200,
+        "bytes": 448298,
+        "etag": "\"9c1a5b4571a12fbb8756969e300a49a9\""
+      }
+    }
+  },
+  "exact_match": true,
+  "profiles": {
+    "mapreduce": [
+      {
+        "seconds": 0.4532,
+        "rss_before_mb": 49.36,
+        "rss_after_mb": 61.98,
+        "peak_rss_mb": 183.29
+      },
+      {
+        "seconds": 0.1448,
+        "rss_before_mb": 61.98,
+        "rss_after_mb": 68.49,
+        "peak_rss_mb": 186.68
+      },
+      {
+        "seconds": 0.1451,
+        "rss_before_mb": 68.49,
+        "rss_after_mb": 70.01,
+        "peak_rss_mb": 189.63
+      }
+    ],
+    "duckdb": [
+      {
+        "seconds": 0.0658,
+        "rss_before_mb": 76.89,
+        "rss_after_mb": 116.85,
+        "peak_rss_mb": 131.42
+      },
+      {
+        "seconds": 0.0654,
+        "rss_before_mb": 118.1,
+        "rss_after_mb": 138.2,
+        "peak_rss_mb": 152.85
+      },
+      {
+        "seconds": 0.0656,
+        "rss_before_mb": 139.26,
+        "rss_after_mb": 149.26,
+        "peak_rss_mb": 163.53
+      }
+    ]
+  },
+  "salary": {
+    "2": [
+      {
+        "skills": [
+          "golang",
+          "postgresql"
+        ],
+        "n": 6,
+        "median_rub": 232375.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 7375.0
+      },
+      {
+        "skills": [
+          "golang",
+          "rabbitmq"
+        ],
+        "n": 5,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgresql"
+        ],
+        "n": 4,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "golang"
+        ],
+        "n": 4,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgresql"
+        ],
+        "n": 4,
+        "median_rub": 232375.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -7375.0
+      },
+      {
+        "skills": [
+          "go",
+          "golang"
+        ],
+        "n": 4,
+        "median_rub": 312500.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 87500.0
+      },
+      {
+        "skills": [
+          "golang",
+          "sql"
+        ],
+        "n": 4,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "sql"
+        ],
+        "n": 4,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "git"
+        ],
+        "n": 3,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "golang"
+        ],
+        "n": 3,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "sql"
+        ],
+        "n": 3,
+        "median_rub": 225000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "sql"
+        ],
+        "n": 3,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "go",
+          "rabbitmq"
+        ],
+        "n": 3,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "rabbitmq"
+        ],
+        "n": 3,
+        "median_rub": 239750.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "kafka"
+        ],
+        "n": 2,
+        "median_rub": 240000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 15000.0
+      },
+      {
+        "skills": [
+          "git",
+          "rabbitmq"
+        ],
+        "n": 2,
+        "median_rub": 172375.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -52625.0
+      },
+      {
+        "skills": [
+          "git",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "go",
+          "kafka"
+        ],
+        "n": 2,
+        "median_rub": 277500.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": -35000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "kafka"
+        ],
+        "n": 2,
+        "median_rub": 277500.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 52500.0
+      },
+      {
+        "skills": [
+          "golang",
+          "kubernetes"
+        ],
+        "n": 2,
+        "median_rub": 325000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 100000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "redis"
+        ],
+        "n": 2,
+        "median_rub": 325000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 100000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "golang",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "golang",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "rabbitmq"
+        ],
+        "n": 2,
+        "median_rub": 277500.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 37750.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "postgresql"
+        ],
+        "n": 2,
+        "median_rub": 325000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 85250.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "rabbitmq"
+        ],
+        "n": 2,
+        "median_rub": 325000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 85250.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "rabbitmq",
+          "redis"
+        ],
+        "n": 2,
+        "median_rub": 325000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 85250.0
+      },
+      {
+        "skills": [
+          "rabbitmq",
+          "sql"
+        ],
+        "n": 2,
+        "median_rub": 219875.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -19875.0
+      },
+      {
+        "skills": [
+          "sql",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "sql",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "sql",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "web",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "web",
+        "anchor_n": 2,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "web",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "web",
+        "anchor_n": 2,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "базы данных",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "базы данных",
+        "anchor_n": 2,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "api",
+          "backend"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "api",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "api",
+          "golang"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "api",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "api",
+          "автоматизация"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "api",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "api",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "api",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "api",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "api",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "backend",
+          "golang"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "backend",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "backend",
+          "автоматизация"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "backend",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "backend",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "backend",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "backend",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "backend",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "kafka"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "kubernetes"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "php"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgis"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "go"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": 137500.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "golang"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "kubernetes"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "kubernetes",
+        "anchor_n": 2,
+        "anchor_median_rub": 325000.0,
+        "delta_rub": 125000.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "elasticsearch",
+        "anchor_n": 1,
+        "anchor_median_rub": 450000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "go"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "git",
+          "grpc"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgis"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "git",
+          "python"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "git",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "git",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "go",
+          "kubernetes"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": 137500.0
+      },
+      {
+        "skills": [
+          "go",
+          "linux"
+        ],
+        "n": 1,
+        "median_rub": 175000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": -137500.0
+      },
+      {
+        "skills": [
+          "go",
+          "mongodb"
+        ],
+        "n": 1,
+        "median_rub": 175000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": -137500.0
+      },
+      {
+        "skills": [
+          "go",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "go",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": 137500.0
+      },
+      {
+        "skills": [
+          "go",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": 137500.0
+      },
+      {
+        "skills": [
+          "go",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": -207500.0
+      },
+      {
+        "skills": [
+          "go",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": 137500.0
+      },
+      {
+        "skills": [
+          "golang",
+          "grpc"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "golang",
+          "linux"
+        ],
+        "n": 1,
+        "median_rub": 175000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -50000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "mongodb"
+        ],
+        "n": 1,
+        "median_rub": 175000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -50000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "php"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "python"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "golang",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "автоматизация"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "grpc",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "grpc",
+          "python"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "grpc",
+        "anchor_n": 1,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "grpc",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "grpc",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "postgis"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "kafka",
+        "anchor_n": 3,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "kafka",
+        "anchor_n": 3,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "kafka",
+        "anchor_n": 3,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "kafka",
+        "anchor_n": 3,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": -270000.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "kafka",
+        "anchor_n": 3,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "kafka",
+        "anchor_n": 3,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "php"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "kubernetes",
+        "anchor_n": 2,
+        "anchor_median_rub": 325000.0,
+        "delta_rub": -125000.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "kubernetes",
+        "anchor_n": 2,
+        "anchor_median_rub": 325000.0,
+        "delta_rub": -125000.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "kubernetes",
+        "anchor_n": 2,
+        "anchor_median_rub": 325000.0,
+        "delta_rub": 125000.0
+      },
+      {
+        "skills": [
+          "linux",
+          "mongodb"
+        ],
+        "n": 1,
+        "median_rub": 175000.0,
+        "anchor": "linux",
+        "anchor_n": 1,
+        "anchor_median_rub": 175000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "php",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "php",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "php",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "redis",
+        "anchor_n": 2,
+        "anchor_median_rub": 325000.0,
+        "delta_rub": -125000.0
+      },
+      {
+        "skills": [
+          "php",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "postgis",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "postgis",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgis",
+        "anchor_n": 1,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "postgis",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgis",
+        "anchor_n": 1,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "python"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "автоматизация"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "python",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "python",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "rabbitmq",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "rabbitmq",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -134750.0
+      },
+      {
+        "skills": [
+          "rabbitmq",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "redis",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "redis",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "redis",
+        "anchor_n": 2,
+        "anchor_median_rub": 325000.0,
+        "delta_rub": 125000.0
+      },
+      {
+        "skills": [
+          "unit testing",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "unit testing",
+        "anchor_n": 1,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "автоматизация",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "автоматизация",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "автоматизация",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "автоматизация",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "математическая статистика",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "математическая статистика",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      }
+    ],
+    "3": [
+      {
+        "skills": [
+          "golang",
+          "postgresql",
+          "sql"
+        ],
+        "n": 4,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "git",
+          "postgresql"
+        ],
+        "n": 3,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "golang",
+          "postgresql"
+        ],
+        "n": 3,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "golang",
+          "sql"
+        ],
+        "n": 3,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgresql",
+          "sql"
+        ],
+        "n": 3,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "golang",
+          "postgresql"
+        ],
+        "n": 3,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "golang",
+          "sql"
+        ],
+        "n": 3,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgresql",
+          "sql"
+        ],
+        "n": 3,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "go",
+          "golang",
+          "rabbitmq"
+        ],
+        "n": 3,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "postgresql",
+          "rabbitmq"
+        ],
+        "n": 3,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "git",
+          "golang"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "git",
+          "sql"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "git",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "git",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "git",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "golang",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "golang",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "golang",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgresql",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgresql",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgresql",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "sql",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "sql",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "sql",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "web",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "web",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "базы данных",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "golang",
+          "rabbitmq"
+        ],
+        "n": 2,
+        "median_rub": 172375.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -52625.0
+      },
+      {
+        "skills": [
+          "git",
+          "golang",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "golang",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "golang",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgresql",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgresql",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgresql",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "sql",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "sql",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "sql",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "web",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "web",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "базы данных",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "go",
+          "golang",
+          "kafka"
+        ],
+        "n": 2,
+        "median_rub": 277500.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 52500.0
+      },
+      {
+        "skills": [
+          "go",
+          "kafka",
+          "rabbitmq"
+        ],
+        "n": 2,
+        "median_rub": 277500.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 37750.0
+      },
+      {
+        "skills": [
+          "golang",
+          "kafka",
+          "rabbitmq"
+        ],
+        "n": 2,
+        "median_rub": 277500.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 52500.0
+      },
+      {
+        "skills": [
+          "golang",
+          "kubernetes",
+          "postgresql"
+        ],
+        "n": 2,
+        "median_rub": 325000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 100000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "kubernetes",
+          "rabbitmq"
+        ],
+        "n": 2,
+        "median_rub": 325000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 100000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "postgresql",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "golang",
+          "postgresql",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "golang",
+          "postgresql",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "golang",
+          "rabbitmq",
+          "redis"
+        ],
+        "n": 2,
+        "median_rub": 325000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 100000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "rabbitmq",
+          "sql"
+        ],
+        "n": 2,
+        "median_rub": 219875.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -5125.0
+      },
+      {
+        "skills": [
+          "golang",
+          "sql",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "golang",
+          "sql",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "golang",
+          "sql",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "golang",
+          "web",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "golang",
+          "web",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "golang",
+          "базы данных",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "postgresql",
+          "rabbitmq"
+        ],
+        "n": 2,
+        "median_rub": 325000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 85250.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "rabbitmq",
+          "sql"
+        ],
+        "n": 2,
+        "median_rub": 219875.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -19875.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "sql",
+          "web"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "sql",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "sql",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "web",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "web",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "базы данных",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -14750.0
+      },
+      {
+        "skills": [
+          "sql",
+          "web",
+          "базы данных"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "sql",
+          "web",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "sql",
+          "базы данных",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "web",
+          "базы данных",
+          "ооп"
+        ],
+        "n": 2,
+        "median_rub": 225000.0,
+        "anchor": "web",
+        "anchor_n": 2,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "api",
+          "backend",
+          "golang"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "api",
+          "backend",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "api",
+          "backend",
+          "автоматизация"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "api",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "api",
+          "backend",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "api",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "api",
+          "backend",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "api",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "api",
+          "golang",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "api",
+          "golang",
+          "автоматизация"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "api",
+          "golang",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "api",
+          "golang",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "api",
+          "postgresql",
+          "автоматизация"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "api",
+          "postgresql",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "api",
+          "postgresql",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "api",
+          "автоматизация",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "api",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "api",
+          "автоматизация",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "api",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "api",
+          "математическая статистика",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "api",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "backend",
+          "golang",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "backend",
+          "golang",
+          "автоматизация"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "backend",
+          "golang",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "backend",
+          "golang",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "backend",
+          "postgresql",
+          "автоматизация"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "backend",
+          "postgresql",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "backend",
+          "postgresql",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "backend",
+          "автоматизация",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "backend",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "backend",
+          "автоматизация",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "backend",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "backend",
+          "математическая статистика",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "backend",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "docker",
+          "git",
+          "kafka"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "git",
+          "postgis"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "git",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "git",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "golang",
+          "kubernetes"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "golang",
+          "php"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "golang",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "golang",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "kafka",
+          "postgis"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "kafka",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "docker",
+          "kafka",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "kafka",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "kubernetes",
+          "php"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "kubernetes",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "kubernetes",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "kubernetes",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "kubernetes",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "php",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "php",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "php",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "php",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgis",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgis",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgis",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgresql",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgresql",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgresql",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "docker",
+          "postgresql",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "docker",
+          "rabbitmq",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "rabbitmq",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "docker",
+          "redis",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "docker",
+          "unit testing",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "docker",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "go",
+          "golang"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "go",
+          "kubernetes"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": 137500.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "go",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "go",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "go",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": 137500.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "golang",
+          "kubernetes"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "golang",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "golang",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "golang",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "kubernetes",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "kubernetes",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "kubernetes",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "kubernetes",
+        "anchor_n": 2,
+        "anchor_median_rub": 325000.0,
+        "delta_rub": 125000.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "postgresql",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "postgresql",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "elasticsearch",
+          "rabbitmq",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "git",
+          "go",
+          "golang"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "git",
+          "go",
+          "kafka"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "git",
+          "go",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "git",
+          "go",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "git",
+          "golang",
+          "grpc"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "golang",
+          "kafka"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "git",
+          "golang",
+          "python"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "golang",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "git",
+          "grpc",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "grpc",
+          "python"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "grpc",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "grpc",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "kafka",
+          "postgis"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "git",
+          "kafka",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "git",
+          "kafka",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "git",
+          "kafka",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "git",
+          "kafka",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "git",
+          "kafka",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgis",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgis",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgis",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgresql",
+          "python"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgresql",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgresql",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "git",
+          "postgresql",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "git",
+          "python",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "python",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "rabbitmq",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "git",
+          "rabbitmq",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "git",
+          "unit testing",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "git",
+        "anchor_n": 5,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 150000.0
+      },
+      {
+        "skills": [
+          "go",
+          "golang",
+          "kubernetes"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "go",
+          "golang",
+          "linux"
+        ],
+        "n": 1,
+        "median_rub": 175000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -50000.0
+      },
+      {
+        "skills": [
+          "go",
+          "golang",
+          "mongodb"
+        ],
+        "n": 1,
+        "median_rub": 175000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -50000.0
+      },
+      {
+        "skills": [
+          "go",
+          "golang",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "go",
+          "golang",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "go",
+          "golang",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "go",
+          "golang",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "go",
+          "golang",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "go",
+          "kafka",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": 137500.0
+      },
+      {
+        "skills": [
+          "go",
+          "kafka",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": -207500.0
+      },
+      {
+        "skills": [
+          "go",
+          "kafka",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": 137500.0
+      },
+      {
+        "skills": [
+          "go",
+          "kubernetes",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "go",
+          "kubernetes",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "go",
+          "kubernetes",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": 137500.0
+      },
+      {
+        "skills": [
+          "go",
+          "linux",
+          "mongodb"
+        ],
+        "n": 1,
+        "median_rub": 175000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": -137500.0
+      },
+      {
+        "skills": [
+          "go",
+          "postgresql",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "go",
+          "postgresql",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "go",
+          "rabbitmq",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "go",
+          "rabbitmq",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "go",
+          "rabbitmq",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -134750.0
+      },
+      {
+        "skills": [
+          "go",
+          "rabbitmq",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "go",
+          "redis",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "go",
+        "anchor_n": 4,
+        "anchor_median_rub": 312500.0,
+        "delta_rub": 137500.0
+      },
+      {
+        "skills": [
+          "golang",
+          "grpc",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "golang",
+          "grpc",
+          "python"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "golang",
+          "grpc",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "golang",
+          "grpc",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "golang",
+          "kafka",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "kafka",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "kafka",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "kubernetes",
+          "php"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "kubernetes",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "kubernetes",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "kubernetes",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "linux",
+          "mongodb"
+        ],
+        "n": 1,
+        "median_rub": 175000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -50000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "php",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "php",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "php",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "php",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "postgresql",
+          "python"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "golang",
+          "postgresql",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "postgresql",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "postgresql",
+          "автоматизация"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "postgresql",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "postgresql",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "python",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "golang",
+          "python",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "golang",
+          "rabbitmq",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "rabbitmq",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -120000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "rabbitmq",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "redis",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "redis",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 225000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "автоматизация",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "автоматизация",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "golang",
+          "математическая статистика",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "golang",
+        "anchor_n": 9,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "grpc",
+          "postgresql",
+          "python"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "grpc",
+          "postgresql",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "grpc",
+          "postgresql",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "grpc",
+          "python",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "grpc",
+          "python",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": 14750.0
+      },
+      {
+        "skills": [
+          "grpc",
+          "rabbitmq",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "postgis",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "postgis",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "kafka",
+        "anchor_n": 3,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "postgis",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "kafka",
+        "anchor_n": 3,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "postgresql",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "postgresql",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "rabbitmq",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "rabbitmq",
+          "unix"
+        ],
+        "n": 1,
+        "median_rub": 105000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -134750.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "rabbitmq",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "redis",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "kafka",
+        "anchor_n": 3,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 75000.0
+      },
+      {
+        "skills": [
+          "kafka",
+          "unit testing",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "kafka",
+        "anchor_n": 3,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "php",
+          "postgresql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "php",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "php",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "kubernetes",
+        "anchor_n": 2,
+        "anchor_median_rub": 325000.0,
+        "delta_rub": -125000.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "php",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "postgresql",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "postgresql",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "postgresql",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "rabbitmq",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "rabbitmq",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "rabbitmq",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "kubernetes",
+          "redis",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "php",
+          "postgresql",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "php",
+          "postgresql",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "php",
+          "postgresql",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "php",
+          "rabbitmq",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "php",
+          "rabbitmq",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "php",
+          "redis",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "sql",
+        "anchor_n": 4,
+        "anchor_median_rub": 225000.0,
+        "delta_rub": -25000.0
+      },
+      {
+        "skills": [
+          "postgis",
+          "postgresql",
+          "unit testing"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "postgis",
+          "postgresql",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "postgis",
+          "unit testing",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgis",
+        "anchor_n": 1,
+        "anchor_median_rub": 375000.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "python",
+          "rabbitmq"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "python",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "rabbitmq",
+          "redis"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "rabbitmq",
+          "symfony"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "redis",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "unit testing",
+          "удаленная работа"
+        ],
+        "n": 1,
+        "median_rub": 375000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 135250.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "автоматизация",
+          "математическая статистика"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "автоматизация",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "postgresql",
+          "математическая статистика",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "postgresql",
+        "anchor_n": 7,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 60250.0
+      },
+      {
+        "skills": [
+          "python",
+          "rabbitmq",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 239750.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 0.0
+      },
+      {
+        "skills": [
+          "rabbitmq",
+          "redis",
+          "sql"
+        ],
+        "n": 1,
+        "median_rub": 200000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": -39750.0
+      },
+      {
+        "skills": [
+          "rabbitmq",
+          "redis",
+          "микросервисная архитектура"
+        ],
+        "n": 1,
+        "median_rub": 450000.0,
+        "anchor": "rabbitmq",
+        "anchor_n": 5,
+        "anchor_median_rub": 239750.0,
+        "delta_rub": 210250.0
+      },
+      {
+        "skills": [
+          "автоматизация",
+          "математическая статистика",
+          "математическое моделирование"
+        ],
+        "n": 1,
+        "median_rub": 300000.0,
+        "anchor": "автоматизация",
+        "anchor_n": 1,
+        "anchor_median_rub": 300000.0,
+        "delta_rub": 0.0
+      }
+    ]
+  },
+  "regional": {
+    "regions": [
+      "Москва",
+      "Санкт-Петербург",
+      "Нижний Новгород"
+    ],
+    "basic": [
+      {
+        "region": "Москва",
+        "vacancies": 67,
+        "salary_rows": 6,
+        "median_rub": 300000.0
+      },
+      {
+        "region": "Санкт-Петербург",
+        "vacancies": 29,
+        "salary_rows": 2,
+        "median_rub": 337500.0
+      },
+      {
+        "region": "Нижний Новгород",
+        "vacancies": 7,
+        "salary_rows": 1,
+        "median_rub": 200000.0
+      }
+    ],
+    "top_skills": [
+      {
+        "region": "Москва",
+        "skill": "golang",
+        "n": 44
+      },
+      {
+        "region": "Москва",
+        "skill": "postgresql",
+        "n": 26
+      },
+      {
+        "region": "Москва",
+        "skill": "go",
+        "n": 22
+      },
+      {
+        "region": "Москва",
+        "skill": "docker",
+        "n": 15
+      },
+      {
+        "region": "Москва",
+        "skill": "kubernetes",
+        "n": 13
+      },
+      {
+        "region": "Нижний Новгород",
+        "skill": "linux",
+        "n": 4
+      },
+      {
+        "region": "Нижний Новгород",
+        "skill": "go",
+        "n": 3
+      },
+      {
+        "region": "Нижний Новгород",
+        "skill": "golang",
+        "n": 2
+      },
+      {
+        "region": "Нижний Новгород",
+        "skill": "php",
+        "n": 2
+      },
+      {
+        "region": "Нижний Новгород",
+        "skill": "postgresql",
+        "n": 2
+      },
+      {
+        "region": "Санкт-Петербург",
+        "skill": "golang",
+        "n": 20
+      },
+      {
+        "region": "Санкт-Петербург",
+        "skill": "go",
+        "n": 14
+      },
+      {
+        "region": "Санкт-Петербург",
+        "skill": "postgresql",
+        "n": 13
+      },
+      {
+        "region": "Санкт-Петербург",
+        "skill": "sql",
+        "n": 10
+      },
+      {
+        "region": "Санкт-Петербург",
+        "skill": "docker",
+        "n": 7
+      }
+    ],
+    "top_combinations": {
+      "2": {
+        "Москва": [
+          {
+            "skills": [
+              "golang",
+              "postgresql"
+            ],
+            "n": 21
+          },
+          {
+            "skills": [
+              "go",
+              "golang"
+            ],
+            "n": 17
+          },
+          {
+            "skills": [
+              "docker",
+              "postgresql"
+            ],
+            "n": 13
+          }
+        ],
+        "Санкт-Петербург": [
+          {
+            "skills": [
+              "golang",
+              "postgresql"
+            ],
+            "n": 11
+          },
+          {
+            "skills": [
+              "go",
+              "golang"
+            ],
+            "n": 9
+          },
+          {
+            "skills": [
+              "golang",
+              "sql"
+            ],
+            "n": 8
+          }
+        ],
+        "Нижний Новгород": [
+          {
+            "skills": [
+              "go",
+              "linux"
+            ],
+            "n": 3
+          },
+          {
+            "skills": [
+              "golang",
+              "sql"
+            ],
+            "n": 2
+          },
+          {
+            "skills": [
+              "php",
+              "postgresql"
+            ],
+            "n": 2
+          }
+        ]
+      },
+      "3": {
+        "Москва": [
+          {
+            "skills": [
+              "docker",
+              "golang",
+              "postgresql"
+            ],
+            "n": 10
+          },
+          {
+            "skills": [
+              "golang",
+              "kubernetes",
+              "postgresql"
+            ],
+            "n": 9
+          },
+          {
+            "skills": [
+              "git",
+              "golang",
+              "postgresql"
+            ],
+            "n": 8
+          }
+        ],
+        "Санкт-Петербург": [
+          {
+            "skills": [
+              "golang",
+              "postgresql",
+              "sql"
+            ],
+            "n": 6
+          },
+          {
+            "skills": [
+              "docker",
+              "golang",
+              "postgresql"
+            ],
+            "n": 5
+          },
+          {
+            "skills": [
+              "docker",
+              "postgresql",
+              "sql"
+            ],
+            "n": 5
+          }
+        ],
+        "Нижний Новгород": [
+          {
+            "skills": [
+              "c",
+              "go",
+              "linux"
+            ],
+            "n": 1
+          },
+          {
+            "skills": [
+              "docker",
+              "golang",
+              "kubernetes"
+            ],
+            "n": 1
+          },
+          {
+            "skills": [
+              "docker",
+              "golang",
+              "php"
+            ],
+            "n": 1
+          }
+        ]
+      }
+    }
+  }
+}

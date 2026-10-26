@@ -1,0 +1,7 @@
+runtime/
+data/
+results/*
+!results/evidence.json
+report/*.png
+__pycache__/
+.venv/
