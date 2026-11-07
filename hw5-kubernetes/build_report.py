@@ -31,7 +31,7 @@ styles={
  'small':ParagraphStyle('small',fontName='Arial',fontSize=8.3,leading=11.3,textColor=INK,spaceAfter=7,wordWrap='CJK'),
  'h':ParagraphStyle('h',fontName='ArialBold',fontSize=19,leading=25,textColor=ROSE,spaceAfter=16),
  'sub':ParagraphStyle('sub',fontName='ArialBold',fontSize=11,leading=15,textColor=ROSE,spaceBefore=8,spaceAfter=7),
- 'title':ParagraphStyle('title',fontName='ArialBold',fontSize=29,leading=37,textColor=INK,spaceAfter=22),
+ 'title':ParagraphStyle('title',fontName='Arial',fontSize=16,leading=22,textColor=INK,spaceAfter=16),
  'cell':ParagraphStyle('cell',fontName='Arial',fontSize=8.6,leading=12,textColor=INK),
 }
 story=[]
@@ -50,16 +50,11 @@ def quote(text):
 def page():story.append(PageBreak())
 def mib(n):return n/2**20
 
-story.append(Spacer(1,90))
-p('ИНЖЕНЕРИЯ ДАННЫХ · ВК','sub')
-p('Управление ресурсами\nв Kubernetes'.replace('\n','<br/>'),'title')
-p('Расчёт пар навыков, ограничения памяти, планирование, приоритеты и квоты')
-story.append(Spacer(1,60))
-p('<b>Вита-Виктория Гиалтсо-Мижа</b>')
-p('Группа j3313<br/>ИСУ 466703<br/>Вариант 7: вакансии Go/Golang')
-story.append(Spacer(1,65))
-p('Фактические запуски: 7 ноября 2026 года','small')
-p('Программа расчёта написана на Python. Go/Golang здесь обозначает сегмент вакансий индивидуального варианта.','small')
+story.append(Spacer(1,155))
+p('Лабораторная работа: Kubernetes','title')
+story.append(Spacer(1,35))
+p('Вита-Виктория Гиалтсо-Мижа')
+p('Группа j3313<br/>ИСУ 466703')
 page()
 h('1. Среда и контрольный расчёт')
 p('На Mac с ARM64 поднята отдельная виртуальная машина Colima: 4 CPU, 4 GiB памяти и диск данных 12 GiB. В ней создан один узел kind. Кластер предназначен для учебных экспериментов, отказоустойчивость нескольких физических машин здесь не проверяется.')
@@ -147,9 +142,7 @@ for title,url in [
  p(escape(title)+'<br/><link href="'+url+'">'+escape(url)+'</link>','small')
 
 def decor(canvas,doc):
- canvas.setStrokeColor(GRID);canvas.setLineWidth(0.8);canvas.line(60,39,535,39)
- canvas.setFillColor(ROSE);canvas.setFont('Arial',8);canvas.drawRightString(535,26,str(doc.page))
- canvas.setFillColor(LIGHT);canvas.rect(0,A4[1]-10,A4[0],10,fill=1,stroke=0)
+ pass
 
 doc=SimpleDocTemplate(str(OUT),pagesize=A4,leftMargin=60,rightMargin=60,topMargin=52,bottomMargin=55,title='Управление ресурсами в Kubernetes',author='Вита-Виктория Гиалтсо-Мижа')
 doc.build(story,onFirstPage=decor,onLaterPages=decor)
