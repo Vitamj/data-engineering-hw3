@@ -1,0 +1,414 @@
+{
+  "parts": [
+    {
+      "output": "results/parts/0.json",
+      "rows": 34,
+      "unique_pairs": 621,
+      "total_pairs": 878,
+      "peak_rss_bytes": 27758592,
+      "elapsed_seconds": 0.10613361599996551,
+      "cgroup_peak_bytes": 16584704,
+      "matches_hw3": null,
+      "top10": [
+        {
+          "skills": [
+            "golang",
+            "postgresql"
+          ],
+          "count": 14
+        },
+        {
+          "skills": [
+            "golang",
+            "sql"
+          ],
+          "count": 11
+        },
+        {
+          "skills": [
+            "go",
+            "golang"
+          ],
+          "count": 10
+        },
+        {
+          "skills": [
+            "golang",
+            "rabbitmq"
+          ],
+          "count": 9
+        },
+        {
+          "skills": [
+            "golang",
+            "kafka"
+          ],
+          "count": 7
+        },
+        {
+          "skills": [
+            "golang",
+            "redis"
+          ],
+          "count": 7
+        },
+        {
+          "skills": [
+            "postgresql",
+            "rabbitmq"
+          ],
+          "count": 7
+        },
+        {
+          "skills": [
+            "postgresql",
+            "sql"
+          ],
+          "count": 7
+        },
+        {
+          "skills": [
+            "git",
+            "golang"
+          ],
+          "count": 6
+        },
+        {
+          "skills": [
+            "git",
+            "postgresql"
+          ],
+          "count": 6
+        }
+      ]
+    },
+    {
+      "output": "results/parts/1.json",
+      "rows": 43,
+      "unique_pairs": 508,
+      "total_pairs": 729,
+      "peak_rss_bytes": 27754496,
+      "elapsed_seconds": 0.10610800400002063,
+      "cgroup_peak_bytes": 16412672,
+      "matches_hw3": null,
+      "top10": [
+        {
+          "skills": [
+            "golang",
+            "postgresql"
+          ],
+          "count": 13
+        },
+        {
+          "skills": [
+            "docker",
+            "golang"
+          ],
+          "count": 8
+        },
+        {
+          "skills": [
+            "go",
+            "postgresql"
+          ],
+          "count": 8
+        },
+        {
+          "skills": [
+            "golang",
+            "grpc"
+          ],
+          "count": 8
+        },
+        {
+          "skills": [
+            "go",
+            "golang"
+          ],
+          "count": 7
+        },
+        {
+          "skills": [
+            "postgresql",
+            "sql"
+          ],
+          "count": 7
+        },
+        {
+          "skills": [
+            "go",
+            "sql"
+          ],
+          "count": 6
+        },
+        {
+          "skills": [
+            "golang",
+            "kubernetes"
+          ],
+          "count": 6
+        },
+        {
+          "skills": [
+            "docker",
+            "go"
+          ],
+          "count": 5
+        },
+        {
+          "skills": [
+            "docker",
+            "kubernetes"
+          ],
+          "count": 5
+        }
+      ]
+    },
+    {
+      "output": "results/parts/2.json",
+      "rows": 20,
+      "unique_pairs": 194,
+      "total_pairs": 258,
+      "peak_rss_bytes": 27435008,
+      "elapsed_seconds": 0.19703454099999362,
+      "cgroup_peak_bytes": 17043456,
+      "matches_hw3": null,
+      "top10": [
+        {
+          "skills": [
+            "go",
+            "golang"
+          ],
+          "count": 8
+        },
+        {
+          "skills": [
+            "golang",
+            "linux"
+          ],
+          "count": 6
+        },
+        {
+          "skills": [
+            "go",
+            "linux"
+          ],
+          "count": 5
+        },
+        {
+          "skills": [
+            "golang",
+            "kubernetes"
+          ],
+          "count": 5
+        },
+        {
+          "skills": [
+            "golang",
+            "postgresql"
+          ],
+          "count": 4
+        },
+        {
+          "skills": [
+            "kubernetes",
+            "postgresql"
+          ],
+          "count": 4
+        },
+        {
+          "skills": [
+            "docker",
+            "git"
+          ],
+          "count": 3
+        },
+        {
+          "skills": [
+            "docker",
+            "golang"
+          ],
+          "count": 3
+        },
+        {
+          "skills": [
+            "docker",
+            "kubernetes"
+          ],
+          "count": 3
+        },
+        {
+          "skills": [
+            "docker",
+            "postgresql"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "output": "results/parts/3.json",
+      "rows": 27,
+      "unique_pairs": 388,
+      "total_pairs": 517,
+      "peak_rss_bytes": 27750400,
+      "elapsed_seconds": 0.1966605540000046,
+      "cgroup_peak_bytes": 16830464,
+      "matches_hw3": null,
+      "top10": [
+        {
+          "skills": [
+            "docker",
+            "postgresql"
+          ],
+          "count": 8
+        },
+        {
+          "skills": [
+            "golang",
+            "kubernetes"
+          ],
+          "count": 7
+        },
+        {
+          "skills": [
+            "golang",
+            "postgresql"
+          ],
+          "count": 7
+        },
+        {
+          "skills": [
+            "docker",
+            "golang"
+          ],
+          "count": 6
+        },
+        {
+          "skills": [
+            "git",
+            "golang"
+          ],
+          "count": 6
+        },
+        {
+          "skills": [
+            "git",
+            "postgresql"
+          ],
+          "count": 6
+        },
+        {
+          "skills": [
+            "golang",
+            "sql"
+          ],
+          "count": 6
+        },
+        {
+          "skills": [
+            "docker",
+            "git"
+          ],
+          "count": 5
+        },
+        {
+          "skills": [
+            "golang",
+            "linux"
+          ],
+          "count": 5
+        },
+        {
+          "skills": [
+            "docker",
+            "sql"
+          ],
+          "count": 4
+        }
+      ]
+    }
+  ],
+  "reduced": {
+    "output": "results/parallel.json",
+    "rows": 124,
+    "unique_pairs": 1008,
+    "total_pairs": 2382,
+    "peak_rss_bytes": 27299840,
+    "elapsed_seconds": 0.10281913199997916,
+    "cgroup_peak_bytes": 17436672,
+    "matches_hw3": true,
+    "top10": [
+      {
+        "skills": [
+          "golang",
+          "postgresql"
+        ],
+        "count": 38
+      },
+      {
+        "skills": [
+          "go",
+          "golang"
+        ],
+        "count": 29
+      },
+      {
+        "skills": [
+          "golang",
+          "kubernetes"
+        ],
+        "count": 23
+      },
+      {
+        "skills": [
+          "golang",
+          "sql"
+        ],
+        "count": 23
+      },
+      {
+        "skills": [
+          "docker",
+          "golang"
+        ],
+        "count": 22
+      },
+      {
+        "skills": [
+          "docker",
+          "postgresql"
+        ],
+        "count": 21
+      },
+      {
+        "skills": [
+          "postgresql",
+          "sql"
+        ],
+        "count": 19
+      },
+      {
+        "skills": [
+          "git",
+          "golang"
+        ],
+        "count": 18
+      },
+      {
+        "skills": [
+          "golang",
+          "linux"
+        ],
+        "count": 18
+      },
+      {
+        "skills": [
+          "git",
+          "postgresql"
+        ],
+        "count": 17
+      }
+    ]
+  }
+}

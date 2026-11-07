@@ -1,0 +1,31 @@
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  3.275MB
+Step 1/8 : FROM python:3.12-slim
+ ---> 4840d514c583
+Step 2/8 : WORKDIR /app
+ ---> Running in 34b648903f7b
+ ---> Removed intermediate container 34b648903f7b
+ ---> 927e0c22b44f
+Step 3/8 : COPY src/ .
+ ---> a5233a8653a0
+Step 4/8 : COPY data/vacancies.jsonl /input/vacancies.jsonl
+ ---> f189a704f6cd
+Step 5/8 : COPY results/hw3_reference.json /input/expected.json
+ ---> 7962816e6980
+Step 6/8 : USER 10001:10001
+ ---> Running in 5e947c69a28d
+ ---> Removed intermediate container 5e947c69a28d
+ ---> c105398b9f84
+Step 7/8 : ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+ ---> Running in d159857dc93a
+ ---> Removed intermediate container d159857dc93a
+ ---> 0e9cc36f0890
+Step 8/8 : ENTRYPOINT ["python", "pairs.py"]
+ ---> Running in c1c1be76b709
+ ---> Removed intermediate container c1c1be76b709
+ ---> 2eb3dbd80813
+Successfully built 2eb3dbd80813
+Successfully tagged vk-pairs:hw5

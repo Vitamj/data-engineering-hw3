@@ -1,0 +1,2 @@
+$ kubectl apply -f manifests/10-baseline.json
+job.batch/pairs-baseline created

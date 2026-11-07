@@ -1,0 +1,49 @@
+$ kubectl get resourcequota -n vk-hw5-quota -o json
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "kind": "ResourceQuota",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"ResourceQuota\",\"metadata\":{\"annotations\":{},\"name\":\"compute-budget\",\"namespace\":\"vk-hw5-quota\"},\"spec\":{\"hard\":{\"limits.cpu\":\"1\",\"limits.memory\":\"256Mi\",\"pods\":\"2\",\"requests.cpu\":\"500m\",\"requests.memory\":\"128Mi\"}}}\n"
+                },
+                "creationTimestamp": "2026-11-07T16:22:41Z",
+                "name": "compute-budget",
+                "namespace": "vk-hw5-quota",
+                "resourceVersion": "1209",
+                "uid": "917c8c78-02a1-4480-94ea-181a8a12685a"
+            },
+            "spec": {
+                "hard": {
+                    "limits.cpu": "1",
+                    "limits.memory": "256Mi",
+                    "pods": "2",
+                    "requests.cpu": "500m",
+                    "requests.memory": "128Mi"
+                }
+            },
+            "status": {
+                "hard": {
+                    "limits.cpu": "1",
+                    "limits.memory": "256Mi",
+                    "pods": "2",
+                    "requests.cpu": "500m",
+                    "requests.memory": "128Mi"
+                },
+                "used": {
+                    "limits.cpu": "0",
+                    "limits.memory": "0",
+                    "pods": "0",
+                    "requests.cpu": "0",
+                    "requests.memory": "0"
+                }
+            }
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}

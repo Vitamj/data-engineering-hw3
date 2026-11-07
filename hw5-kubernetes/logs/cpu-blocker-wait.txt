@@ -1,0 +1,2 @@
+$ kubectl wait pod/cpu-blocker -n vk-hw5 --for=condition=Ready --timeout=120s
+pod/cpu-blocker condition met

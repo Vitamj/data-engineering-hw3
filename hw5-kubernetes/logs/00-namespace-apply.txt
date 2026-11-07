@@ -1,0 +1,2 @@
+$ kubectl apply -f manifests/00-namespace.json
+namespace/vk-hw5 created

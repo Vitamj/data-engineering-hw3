@@ -1,0 +1,8 @@
+*
+!src/
+!src/**
+!data/
+!data/vacancies.jsonl
+!results/
+!results/hw3_reference.json
+**/__pycache__/

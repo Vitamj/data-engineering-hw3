@@ -1,0 +1,2 @@
+$ kubectl apply -f manifests/21-upload.json
+job.batch/s3-upload created

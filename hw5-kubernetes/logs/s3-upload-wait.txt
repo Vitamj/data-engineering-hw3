@@ -1,0 +1,2 @@
+$ kubectl wait -n vk-hw5 --for=condition=complete job/s3-upload --timeout=180s
+job.batch/s3-upload condition met

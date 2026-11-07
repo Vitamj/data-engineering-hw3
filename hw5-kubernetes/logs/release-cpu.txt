@@ -1,0 +1,2 @@
+$ kubectl delete pod/cpu-blocker -n vk-hw5 --wait=true
+pod "cpu-blocker" deleted from vk-hw5 namespace

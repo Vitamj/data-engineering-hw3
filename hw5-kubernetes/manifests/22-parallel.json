@@ -1,0 +1,61 @@
+{
+  "apiVersion": "batch/v1",
+  "kind": "Job",
+  "metadata": {
+    "name": "pairs-parallel",
+    "namespace": "vk-hw5"
+  },
+  "spec": {
+    "backoffLimit": 0,
+    "template": {
+      "metadata": {
+        "labels": {
+          "app": "pairs-parallel"
+        }
+      },
+      "spec": {
+        "restartPolicy": "Never",
+        "terminationGracePeriodSeconds": 2,
+        "containers": [
+          {
+            "name": "pairs",
+            "image": "vk-pairs:hw5",
+            "imagePullPolicy": "Never",
+            "args": [
+              "--key",
+              "parts/{index}.jsonl",
+              "--prefix",
+              "results/parts"
+            ],
+            "resources": {
+              "requests": {
+                "cpu": "100m",
+                "memory": "16Mi"
+              },
+              "limits": {
+                "cpu": "100m",
+                "memory": "32Mi"
+              }
+            },
+            "envFrom": [
+              {
+                "secretRef": {
+                  "name": "s3-credentials"
+                }
+              }
+            ],
+            "env": [
+              {
+                "name": "S3_ENDPOINT",
+                "value": "http://rustfs:9000"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "completionMode": "Indexed",
+    "completions": 4,
+    "parallelism": 4
+  }
+}

@@ -1,0 +1,3 @@
+$ kubectl apply -f manifests/40-quota.json
+namespace/vk-hw5-quota created
+resourcequota/compute-budget created

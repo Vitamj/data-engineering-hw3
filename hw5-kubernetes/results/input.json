@@ -1,0 +1,7 @@
+{
+  "source": "HW3 data/vacancies.jsonl",
+  "bytes": 3067413,
+  "rows": 10000,
+  "sha256": "c6a1864b315e65855ac34f252e21d0b169db09b6382e52ff29b984502786f383",
+  "variant": 7
+}

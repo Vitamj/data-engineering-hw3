@@ -1,0 +1,2 @@
+$ kubectl apply -f manifests/30-priority-low.json
+priorityclass.scheduling.k8s.io/vk-hw5-low created

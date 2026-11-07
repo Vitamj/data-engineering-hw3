@@ -1,0 +1,2 @@
+$ kubectl delete pod/cpu-waiting -n vk-hw5 --wait=true
+pod "cpu-waiting" deleted from vk-hw5 namespace

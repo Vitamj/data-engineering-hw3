@@ -1,0 +1,52 @@
+{
+  "raw/vacancies.jsonl": {
+    "status": 200,
+    "bytes": 3067413,
+    "etag": "\"587214cd534394c4a9d1077b27231003\""
+  },
+  "parts/0.jsonl": {
+    "status": 200,
+    "bytes": 755097,
+    "etag": "\"2995f13d7db83978c35611fb7ab8ec6e\""
+  },
+  "parts/1.jsonl": {
+    "status": 200,
+    "bytes": 753218,
+    "etag": "\"5f32e7db213570da171ecc2e8cc3f59f\""
+  },
+  "parts/2.jsonl": {
+    "status": 200,
+    "bytes": 771666,
+    "etag": "\"7d587a6ac35239ab66533d24033f804e\""
+  },
+  "parts/3.jsonl": {
+    "status": 200,
+    "bytes": 787432,
+    "etag": "\"a0fb8cbdb305e354a6c11db5996571de\""
+  },
+  "results/parts/0.json": {
+    "status": 200,
+    "bytes": 32201,
+    "etag": "\"4d37e242f23d77ac94e8ee439be55860\""
+  },
+  "results/parts/1.json": {
+    "status": 200,
+    "bytes": 25488,
+    "etag": "\"12d39549ab4dcadd3123c900d843b782\""
+  },
+  "results/parts/2.json": {
+    "status": 200,
+    "bytes": 10768,
+    "etag": "\"93a7d39a8521fd4b4f80c2721e7691c2\""
+  },
+  "results/parts/3.json": {
+    "status": 200,
+    "bytes": 19148,
+    "etag": "\"91b3240bb198c923a7a5aa6f50519c63\""
+  },
+  "results/parallel.json": {
+    "status": 200,
+    "bytes": 53125,
+    "etag": "\"7c14c1ebc0834fddc9567c17bd131868\""
+  }
+}

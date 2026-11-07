@@ -1,0 +1,231 @@
+$ kubectl get pod/cpu-waiting -n vk-hw5 -o json
+{
+    "apiVersion": "v1",
+    "kind": "Pod",
+    "metadata": {
+        "annotations": {
+            "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Pod\",\"metadata\":{\"annotations\":{},\"name\":\"cpu-waiting\",\"namespace\":\"vk-hw5\"},\"spec\":{\"containers\":[{\"command\":[\"sh\",\"-c\",\"python pairs.py --local; sleep 300\"],\"image\":\"vk-pairs:hw5\",\"imagePullPolicy\":\"Never\",\"name\":\"pairs\",\"resources\":{\"limits\":{\"cpu\":\"2\",\"memory\":\"128Mi\"},\"requests\":{\"cpu\":\"2\",\"memory\":\"16Mi\"}}}],\"restartPolicy\":\"Never\",\"terminationGracePeriodSeconds\":2}}\n"
+        },
+        "creationTimestamp": "2026-11-07T16:22:28Z",
+        "generation": 1,
+        "name": "cpu-waiting",
+        "namespace": "vk-hw5",
+        "resourceVersion": "1146",
+        "uid": "f174b456-bf9e-4c4e-939e-79f03a28a8e2"
+    },
+    "spec": {
+        "containers": [
+            {
+                "command": [
+                    "sh",
+                    "-c",
+                    "python pairs.py --local; sleep 300"
+                ],
+                "image": "vk-pairs:hw5",
+                "imagePullPolicy": "Never",
+                "name": "pairs",
+                "resources": {
+                    "limits": {
+                        "cpu": "2",
+                        "memory": "128Mi"
+                    },
+                    "requests": {
+                        "cpu": "2",
+                        "memory": "16Mi"
+                    }
+                },
+                "terminationMessagePath": "/dev/termination-log",
+                "terminationMessagePolicy": "File",
+                "volumeMounts": [
+                    {
+                        "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                        "name": "kube-api-access-scl6v",
+                        "readOnly": true
+                    }
+                ]
+            }
+        ],
+        "dnsPolicy": "ClusterFirst",
+        "enableServiceLinks": true,
+        "nodeName": "vk-hw5-control-plane",
+        "preemptionPolicy": "PreemptLowerPriority",
+        "priority": 0,
+        "restartPolicy": "Never",
+        "schedulerName": "default-scheduler",
+        "securityContext": {},
+        "serviceAccount": "default",
+        "serviceAccountName": "default",
+        "terminationGracePeriodSeconds": 2,
+        "tolerations": [
+            {
+                "effect": "NoExecute",
+                "key": "node.kubernetes.io/not-ready",
+                "operator": "Exists",
+                "tolerationSeconds": 300
+            },
+            {
+                "effect": "NoExecute",
+                "key": "node.kubernetes.io/unreachable",
+                "operator": "Exists",
+                "tolerationSeconds": 300
+            }
+        ],
+        "volumes": [
+            {
+                "name": "kube-api-access-scl6v",
+                "projected": {
+                    "defaultMode": 420,
+                    "sources": [
+                        {
+                            "serviceAccountToken": {
+                                "expirationSeconds": 3607,
+                                "path": "token"
+                            }
+                        },
+                        {
+                            "configMap": {
+                                "items": [
+                                    {
+                                        "key": "ca.crt",
+                                        "path": "ca.crt"
+                                    }
+                                ],
+                                "name": "kube-root-ca.crt"
+                            }
+                        },
+                        {
+                            "downwardAPI": {
+                                "items": [
+                                    {
+                                        "fieldRef": {
+                                            "apiVersion": "v1",
+                                            "fieldPath": "metadata.namespace"
+                                        },
+                                        "path": "namespace"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "status": {
+        "allocatedResources": {
+            "cpu": "2",
+            "memory": "16Mi"
+        },
+        "conditions": [
+            {
+                "lastProbeTime": null,
+                "lastTransitionTime": "2026-11-07T16:22:30Z",
+                "observedGeneration": 1,
+                "status": "True",
+                "type": "PodReadyToStartContainers"
+            },
+            {
+                "lastProbeTime": null,
+                "lastTransitionTime": "2026-11-07T16:22:30Z",
+                "observedGeneration": 1,
+                "status": "True",
+                "type": "Initialized"
+            },
+            {
+                "lastProbeTime": null,
+                "lastTransitionTime": "2026-11-07T16:22:30Z",
+                "observedGeneration": 1,
+                "status": "True",
+                "type": "Ready"
+            },
+            {
+                "lastProbeTime": null,
+                "lastTransitionTime": "2026-11-07T16:22:30Z",
+                "observedGeneration": 1,
+                "status": "True",
+                "type": "ContainersReady"
+            },
+            {
+                "lastProbeTime": null,
+                "lastTransitionTime": "2026-11-07T16:22:30Z",
+                "observedGeneration": 1,
+                "status": "True",
+                "type": "PodScheduled"
+            }
+        ],
+        "containerStatuses": [
+            {
+                "allocatedResources": {
+                    "cpu": "2",
+                    "memory": "16Mi"
+                },
+                "containerID": "containerd://6a8bcc15c2d09de57ddd5f51e35c8da8ba823641a058a13241005d5541ce2e16",
+                "image": "docker.io/library/vk-pairs:hw5",
+                "imageID": "docker.io/library/import-2026-11-07@sha256:f201754b41fedbcb4c1ce37131890331a9946c7d184c98fb1419eef68037414f",
+                "lastState": {},
+                "name": "pairs",
+                "ready": true,
+                "resources": {
+                    "limits": {
+                        "cpu": "2",
+                        "memory": "128Mi"
+                    },
+                    "requests": {
+                        "cpu": "2",
+                        "memory": "16Mi"
+                    }
+                },
+                "restartCount": 0,
+                "started": true,
+                "state": {
+                    "running": {
+                        "startedAt": "2026-11-07T16:22:30Z"
+                    }
+                },
+                "user": {
+                    "linux": {
+                        "gid": 0,
+                        "supplementalGroups": [
+                            0
+                        ],
+                        "uid": 10001
+                    }
+                },
+                "volumeMounts": [
+                    {
+                        "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                        "name": "kube-api-access-scl6v",
+                        "readOnly": true,
+                        "recursiveReadOnly": "Disabled"
+                    }
+                ]
+            }
+        ],
+        "hostIP": "172.18.0.2",
+        "hostIPs": [
+            {
+                "ip": "172.18.0.2"
+            }
+        ],
+        "observedGeneration": 1,
+        "phase": "Running",
+        "podIP": "10.244.0.17",
+        "podIPs": [
+            {
+                "ip": "10.244.0.17"
+            }
+        ],
+        "qosClass": "Burstable",
+        "resources": {
+            "limits": {
+                "cpu": "2",
+                "memory": "128Mi"
+            },
+            "requests": {
+                "cpu": "2",
+                "memory": "16Mi"
+            }
+        },
+        "startTime": "2026-11-07T16:22:30Z"
+    }
+}

@@ -1,0 +1,2 @@
+$ kubectl wait -n vk-hw5 --for=condition=complete job/pairs-sized --timeout=180s
+job.batch/pairs-sized condition met

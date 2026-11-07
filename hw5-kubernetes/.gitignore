@@ -1,0 +1,6 @@
+data/
+.env
+__pycache__/
+*.pyc
+runtime/
+lecture_text.txt

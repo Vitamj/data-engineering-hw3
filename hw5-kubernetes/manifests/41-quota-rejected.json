@@ -1,0 +1,32 @@
+{
+  "apiVersion": "v1",
+  "kind": "Pod",
+  "metadata": {
+    "name": "quota-rejected",
+    "namespace": "vk-hw5-quota"
+  },
+  "spec": {
+    "restartPolicy": "Never",
+    "terminationGracePeriodSeconds": 2,
+    "containers": [
+      {
+        "name": "pairs",
+        "image": "vk-pairs:hw5",
+        "imagePullPolicy": "Never",
+        "args": [
+          "--local"
+        ],
+        "resources": {
+          "requests": {
+            "cpu": "600m",
+            "memory": "16Mi"
+          },
+          "limits": {
+            "cpu": "600m",
+            "memory": "128Mi"
+          }
+        }
+      }
+    ]
+  }
+}

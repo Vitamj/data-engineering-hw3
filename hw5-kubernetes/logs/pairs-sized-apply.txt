@@ -1,0 +1,2 @@
+$ kubectl apply -f manifests/pairs-sized.json
+job.batch/pairs-sized created

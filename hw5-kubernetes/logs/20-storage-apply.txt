@@ -1,0 +1,5 @@
+$ kubectl apply -f manifests/20-storage.json
+persistentvolume/vk-hw5-rustfs created
+persistentvolumeclaim/rustfs-data created
+service/rustfs created
+deployment.apps/rustfs created

@@ -1,0 +1,2 @@
+$ kubectl apply -f manifests/23-reduce.json
+job.batch/pairs-reduce created

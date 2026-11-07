@@ -1,0 +1,47 @@
+{
+  "full_counts_match_hw3": true,
+  "unique_pairs": 1008,
+  "total_pairs": 2382,
+  "oom": {
+    "containerID": "containerd://dffec95a892b03ba3126eba921a938a968898ac07fb8ce6cf10b9aaf2746be2b",
+    "exitCode": 137,
+    "finishedAt": "2026-11-07T16:20:27Z",
+    "reason": "OOMKilled",
+    "startedAt": "2026-11-07T16:20:26Z"
+  },
+  "preemption_events": [
+    {
+      "apiVersion": "v1",
+      "count": 1,
+      "eventTime": null,
+      "firstTimestamp": "2026-11-07T16:22:35Z",
+      "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "priority-low",
+        "namespace": "vk-hw5",
+        "resourceVersion": "1170",
+        "uid": "1b28f871-81d7-4252-adcf-c906da7fd42d"
+      },
+      "kind": "Event",
+      "lastTimestamp": "2026-11-07T16:22:35Z",
+      "message": "Preempted by pod ed67ae52-00a5-4e50-a901-a380e30ba2ec on node vk-hw5-control-plane",
+      "metadata": {
+        "creationTimestamp": "2026-11-07T16:22:35Z",
+        "name": "priority-low.18e5cfd8701a79dc",
+        "namespace": "vk-hw5",
+        "resourceVersion": "1176",
+        "uid": "8ca61d6f-b744-4c5b-aa22-7bd6982f10f5"
+      },
+      "reason": "Preempted",
+      "reportingComponent": "default-scheduler",
+      "reportingInstance": "",
+      "source": {
+        "component": "default-scheduler"
+      },
+      "type": "Normal"
+    }
+  ],
+  "pending_cpu": true,
+  "quota_rejected": true
+}

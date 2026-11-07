@@ -1,0 +1,2 @@
+$ kubectl create -f manifests/41-quota-rejected.json
+Error from server (Forbidden): error when creating "manifests/41-quota-rejected.json": pods "quota-rejected" is forbidden: exceeded quota: compute-budget, requested: requests.cpu=600m, used: requests.cpu=0, limited: requests.cpu=500m

@@ -1,0 +1,2 @@
+$ kubectl logs -n vk-hw5 s3-upload-j2mr2
+{"uploaded_rows": 10000, "parts": 4}

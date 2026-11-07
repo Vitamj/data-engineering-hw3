@@ -1,0 +1,2 @@
+$ kubectl apply -f manifests/31-blocker.json
+pod/cpu-blocker created

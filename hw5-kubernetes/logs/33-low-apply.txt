@@ -1,0 +1,2 @@
+$ kubectl apply -f manifests/33-low.json
+pod/priority-low created

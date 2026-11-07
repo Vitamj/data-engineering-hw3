@@ -1,0 +1,2 @@
+$ kubectl apply -f manifests/34-high.json
+pod/priority-high created

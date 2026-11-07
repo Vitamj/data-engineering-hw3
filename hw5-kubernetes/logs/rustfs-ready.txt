@@ -1,0 +1,3 @@
+$ kubectl rollout status deployment/rustfs -n vk-hw5 --timeout=180s
+Waiting for deployment "rustfs" rollout to finish: 0 of 1 updated replicas are available...
+deployment "rustfs" successfully rolled out

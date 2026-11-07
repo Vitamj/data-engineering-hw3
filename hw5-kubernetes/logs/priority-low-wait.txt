@@ -1,0 +1,2 @@
+$ kubectl wait pod/priority-low -n vk-hw5 --for=condition=Ready --timeout=120s
+pod/priority-low condition met

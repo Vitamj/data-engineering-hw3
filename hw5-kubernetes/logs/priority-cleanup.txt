@@ -1,0 +1,2 @@
+$ kubectl delete pod/priority-high -n vk-hw5 --wait=true
+pod "priority-high" deleted from vk-hw5 namespace

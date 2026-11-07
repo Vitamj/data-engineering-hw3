@@ -1,0 +1,363 @@
+$ kubectl get events -n vk-hw5 --sort-by=.metadata.creationTimestamp -o json
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-11-07T16:20:18Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "pairs-baseline-nvbmm",
+                "namespace": "vk-hw5",
+                "resourceVersion": "662",
+                "uid": "7d58329c-8444-4e65-b2e8-ee4be4e4612a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-11-07T16:20:18Z",
+            "message": "Successfully assigned vk-hw5/pairs-baseline-nvbmm to vk-hw5-control-plane",
+            "metadata": {
+                "creationTimestamp": "2026-11-07T16:20:18Z",
+                "name": "pairs-baseline-nvbmm.18e5cfb8ba1f7805",
+                "namespace": "vk-hw5",
+                "resourceVersion": "666",
+                "uid": "8373aa81-0aaa-4e70-b7d4-159a2fb434ca"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-11-07T16:20:18Z",
+            "involvedObject": {
+                "apiVersion": "batch/v1",
+                "kind": "Job",
+                "name": "pairs-baseline",
+                "namespace": "vk-hw5",
+                "resourceVersion": "661",
+                "uid": "9c41aa12-d5e6-41b4-9b36-4585c6cbbfaa"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-11-07T16:20:18Z",
+            "message": "Created pod: pairs-baseline-nvbmm",
+            "metadata": {
+                "creationTimestamp": "2026-11-07T16:20:18Z",
+                "name": "pairs-baseline.18e5cfb8b9e5233d",
+                "namespace": "vk-hw5",
+                "resourceVersion": "665",
+                "uid": "1fe0859a-df78-4258-9f63-537cf874169b"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "job-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "job-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-11-07T16:20:19Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{pairs}",
+                "kind": "Pod",
+                "name": "pairs-baseline-nvbmm",
+                "namespace": "vk-hw5",
+                "resourceVersion": "663",
+                "uid": "7d58329c-8444-4e65-b2e8-ee4be4e4612a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-11-07T16:20:19Z",
+            "message": "Container image \"vk-pairs:hw5\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-11-07T16:20:19Z",
+                "name": "pairs-baseline-nvbmm.18e5cfb8d29cd9c5",
+                "namespace": "vk-hw5",
+                "resourceVersion": "670",
+                "uid": "04e392a3-2a5a-40f1-ad67-66ab6dc55a9b"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "vk-hw5-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "vk-hw5-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-11-07T16:20:19Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{pairs}",
+                "kind": "Pod",
+                "name": "pairs-baseline-nvbmm",
+                "namespace": "vk-hw5",
+                "resourceVersion": "663",
+                "uid": "7d58329c-8444-4e65-b2e8-ee4be4e4612a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-11-07T16:20:19Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-11-07T16:20:19Z",
+                "name": "pairs-baseline-nvbmm.18e5cfb8d329e04f",
+                "namespace": "vk-hw5",
+                "resourceVersion": "672",
+                "uid": "37c6fd13-6091-49e8-9871-452695177159"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "vk-hw5-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "vk-hw5-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-11-07T16:20:19Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{pairs}",
+                "kind": "Pod",
+                "name": "pairs-baseline-nvbmm",
+                "namespace": "vk-hw5",
+                "resourceVersion": "663",
+                "uid": "7d58329c-8444-4e65-b2e8-ee4be4e4612a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-11-07T16:20:19Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-11-07T16:20:19Z",
+                "name": "pairs-baseline-nvbmm.18e5cfb8d9e1c889",
+                "namespace": "vk-hw5",
+                "resourceVersion": "673",
+                "uid": "b5f94720-837d-41a3-8e93-ca07f1f34687"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "vk-hw5-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "vk-hw5-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-11-07T16:20:25Z",
+            "involvedObject": {
+                "apiVersion": "batch/v1",
+                "kind": "Job",
+                "name": "pairs-baseline",
+                "namespace": "vk-hw5",
+                "resourceVersion": "688",
+                "uid": "9c41aa12-d5e6-41b4-9b36-4585c6cbbfaa"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-11-07T16:20:25Z",
+            "message": "Job completed",
+            "metadata": {
+                "creationTimestamp": "2026-11-07T16:20:25Z",
+                "name": "pairs-baseline.18e5cfba4f2f10bc",
+                "namespace": "vk-hw5",
+                "resourceVersion": "691",
+                "uid": "37f98c41-6867-4001-aa5a-f8e963cbdb96"
+            },
+            "reason": "Completed",
+            "reportingComponent": "job-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "job-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-11-07T16:20:26Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "pairs-oom-b4xfh",
+                "namespace": "vk-hw5",
+                "resourceVersion": "695",
+                "uid": "f72250c0-0c73-4c1a-9d1d-c0c78e304984"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-11-07T16:20:26Z",
+            "message": "Successfully assigned vk-hw5/pairs-oom-b4xfh to vk-hw5-control-plane",
+            "metadata": {
+                "creationTimestamp": "2026-11-07T16:20:26Z",
+                "name": "pairs-oom-b4xfh.18e5cfba78a81258",
+                "namespace": "vk-hw5",
+                "resourceVersion": "699",
+                "uid": "0c97dd75-1e5a-4528-87aa-9aa92e1069fa"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-11-07T16:20:26Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{pairs}",
+                "kind": "Pod",
+                "name": "pairs-oom-b4xfh",
+                "namespace": "vk-hw5",
+                "resourceVersion": "697",
+                "uid": "f72250c0-0c73-4c1a-9d1d-c0c78e304984"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-11-07T16:20:26Z",
+            "message": "Container image \"vk-pairs:hw5\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-11-07T16:20:26Z",
+                "name": "pairs-oom-b4xfh.18e5cfba929c4cdf",
+                "namespace": "vk-hw5",
+                "resourceVersion": "701",
+                "uid": "a3b158fb-0ce0-49a7-a97e-e34f6da0bf87"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "vk-hw5-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "vk-hw5-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-11-07T16:20:26Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{pairs}",
+                "kind": "Pod",
+                "name": "pairs-oom-b4xfh",
+                "namespace": "vk-hw5",
+                "resourceVersion": "697",
+                "uid": "f72250c0-0c73-4c1a-9d1d-c0c78e304984"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-11-07T16:20:26Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-11-07T16:20:26Z",
+                "name": "pairs-oom-b4xfh.18e5cfba9314fa19",
+                "namespace": "vk-hw5",
+                "resourceVersion": "703",
+                "uid": "838a7c4e-a20b-4fd5-ab8f-ea4d573415b4"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "vk-hw5-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "vk-hw5-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-11-07T16:20:26Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{pairs}",
+                "kind": "Pod",
+                "name": "pairs-oom-b4xfh",
+                "namespace": "vk-hw5",
+                "resourceVersion": "697",
+                "uid": "f72250c0-0c73-4c1a-9d1d-c0c78e304984"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-11-07T16:20:26Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-11-07T16:20:26Z",
+                "name": "pairs-oom-b4xfh.18e5cfba98b72951",
+                "namespace": "vk-hw5",
+                "resourceVersion": "704",
+                "uid": "a13f19d0-1809-4c46-b9fb-466db57becfb"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "vk-hw5-control-plane",
+            "source": {
+                "component": "kubelet",
+                "host": "vk-hw5-control-plane"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-11-07T16:20:26Z",
+            "involvedObject": {
+                "apiVersion": "batch/v1",
+                "kind": "Job",
+                "name": "pairs-oom",
+                "namespace": "vk-hw5",
+                "resourceVersion": "694",
+                "uid": "347d1d8f-eabc-466c-b14e-b5d1088130ce"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-11-07T16:20:26Z",
+            "message": "Created pod: pairs-oom-b4xfh",
+            "metadata": {
+                "creationTimestamp": "2026-11-07T16:20:26Z",
+                "name": "pairs-oom.18e5cfba787a8e7d",
+                "namespace": "vk-hw5",
+                "resourceVersion": "698",
+                "uid": "8b77efd8-090d-44bf-89c5-ffbd4a8f8c3a"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "job-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "job-controller"
+            },
+            "type": "Normal"
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}

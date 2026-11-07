@@ -1,0 +1,2 @@
+$ kubectl apply -f manifests/22-parallel.json
+job.batch/pairs-parallel created

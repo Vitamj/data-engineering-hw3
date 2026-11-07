@@ -1,0 +1,2 @@
+$ kubectl apply -f manifests/32-pending.json
+pod/cpu-waiting created

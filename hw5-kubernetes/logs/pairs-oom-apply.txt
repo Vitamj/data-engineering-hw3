@@ -1,0 +1,2 @@
+$ kubectl apply -f manifests/pairs-oom.json
+job.batch/pairs-oom created

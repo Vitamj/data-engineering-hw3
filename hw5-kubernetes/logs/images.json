@@ -1,0 +1,133 @@
+[
+    {
+        "Architecture": "arm64",
+        "Config": {
+            "Entrypoint": [
+                "python",
+                "pairs.py"
+            ],
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+                "PYTHON_VERSION=3.12.16",
+                "PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c",
+                "PYTHONUNBUFFERED=1",
+                "PYTHONDONTWRITEBYTECODE=1"
+            ],
+            "User": "10001:10001",
+            "WorkingDir": "/app"
+        },
+        "Created": "2026-11-07T19:19:28.936768572+03:00",
+        "Descriptor": {
+            "digest": "sha256:2eb3dbd80813a6427bd47855c43faca729c687a9344d6083e6b3cdc0f1669e7a",
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "size": 2062
+        },
+        "Id": "sha256:2eb3dbd80813a6427bd47855c43faca729c687a9344d6083e6b3cdc0f1669e7a",
+        "Metadata": {
+            "LastTagTime": "2026-11-07T16:19:28.960884655Z"
+        },
+        "Os": "linux",
+        "Parent": "sha256:0e9cc36f0890bbdfcb6f80c48535d5f3b141d7ce1f982bab427fd382b741d72b",
+        "RepoDigests": [
+            "vk-pairs@sha256:2eb3dbd80813a6427bd47855c43faca729c687a9344d6083e6b3cdc0f1669e7a"
+        ],
+        "RepoTags": [
+            "vk-pairs:hw5"
+        ],
+        "RootFS": {
+            "Layers": [
+                "sha256:04e61ff9ed2c84e88795bf7562d69d0980188e2bb6d6152d6fe721383e10db9e",
+                "sha256:8a6e20eb4e4040b1d94bc6e06af31e37e5fa4bd264ee163f43a15b1e3a18949c",
+                "sha256:4018623d5e6937415351e3d8697eb27327b530a0d1f2f8935b77363f591aadf9",
+                "sha256:bc69d47cb8c450fdb1acccf3e8c91367eed93857769e309acf5ef34894ea28ad",
+                "sha256:464bc4726a6e55e7b6ad164f3d9875970a74097b5d35935e73a5570da87627e2",
+                "sha256:fe7edd452cae0808d0e9ebc46f338e88c441ab6a4c60a594b1bc3723f55e5fcf",
+                "sha256:aebbcbc7481157ec8cad06c2137c3a2b2499ea308ff86492589d9ca0c5fec820",
+                "sha256:7e1030492cda33d1ab2752909a375ec9e88aa25e704e287c938967eb61a39543"
+            ],
+            "Type": "layers"
+        },
+        "Size": 44004202
+    },
+    {
+        "Id": "sha256:1b0a2bf8ae442a3d8b32b94c749acc59152af40bb41498df2c8907f8a80f599d",
+        "RepoTags": [
+            "rustfs/rustfs:latest"
+        ],
+        "RepoDigests": [
+            "rustfs/rustfs@sha256:1b0a2bf8ae442a3d8b32b94c749acc59152af40bb41498df2c8907f8a80f599d"
+        ],
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2026-10-25T16:28:32.047920369Z",
+        "Config": {
+            "User": "rustfs",
+            "ExposedPorts": {
+                "9000/tcp": {},
+                "9001/tcp": {}
+            },
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "RUSTFS_CONSOLE_CORS_ALLOWED_ORIGINS=*",
+                "RUSTFS_VOLUMES=/data",
+                "RUSTFS_OBS_LOGGER_LEVEL=warn",
+                "RUSTFS_OBS_LOG_DIRECTORY=/logs",
+                "RUSTFS_OBS_ENVIRONMENT=production"
+            ],
+            "Entrypoint": [
+                "/entrypoint.sh"
+            ],
+            "Cmd": [
+                "rustfs"
+            ],
+            "Volumes": {
+                "/data": {}
+            },
+            "WorkingDir": "/",
+            "Labels": {
+                "build-date": "",
+                "description": "RustFS is a distributed object storage system written in Rust, supporting erasure coding, multi-tenant management, and observability.",
+                "license": "Apache-2.0",
+                "maintainer": "RustFS Team <dev@rustfs.com>",
+                "name": "RustFS",
+                "org.opencontainers.image.title": "RustFS,org.opencontainers.image.description=RustFS distributed object storage system,org.opencontainers.image.version=1.0.4,org.opencontainers.image.revision=46337942d55f3a8e6a97b147ca98d9ea8115555d,org.opencontainers.image.source=https://github.com/rustfs/rustfs,org.opencontainers.image.created=2026-10-25T16:27:49Z,org.opencontainers.image.build-type=release",
+                "release": "1.0.4",
+                "summary": "High-performance distributed object storage system compatible with S3 API",
+                "url": "https://rustfs.com",
+                "vcs-ref": "",
+                "vendor": "RustFS Team",
+                "version": "v1.0.4"
+            },
+            "ArgsEscaped": true
+        },
+        "Architecture": "arm64",
+        "Os": "linux",
+        "Size": 109670839,
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:b2848c02ac6ff53d265469b5b30f649f335e546a83330cd8916d54e65e640409",
+                "sha256:19dc08903012241c1c2ba941eb129720d6ae2c13d5442a62453be3846724a40a",
+                "sha256:f31fddf3ac25ce764ae2c908e30ee527a6728a780d9ec0add5b87e2b9626cc2d",
+                "sha256:00ad96a8db4ad6a3cdb1ec8dbd72b6c138ed971e69f48940b118bb0935791b05",
+                "sha256:8077127ce3ea1c5d0a1b7c46f2bcad9530560d71364dc6a0b3bb7c31f12f66dd",
+                "sha256:46db879453c71903c24f852fe81a4c9733224d9101e603535d7cd3ecae76e686",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                "sha256:907f3edeb590f14ef002200531a6825211abd53e457b55d4514eb56f354d1a01"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2026-11-07T16:22:22.883845681Z"
+        },
+        "Descriptor": {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:1b0a2bf8ae442a3d8b32b94c749acc59152af40bb41498df2c8907f8a80f599d",
+            "size": 1561,
+            "annotations": {
+                "io.containerd.image.name": "docker.io/rustfs/rustfs:latest",
+                "org.opencontainers.image.ref.name": "latest"
+            }
+        }
+    }
+]
